@@ -13,7 +13,7 @@ Opinionated Vite starter template.
 Use this repository as a [GitHub template](https://github.com/trinhthinh388/react-vite-boilerplate) or use [degit](https://github.com/Rich-Harris/degit) to clone to your machine with an empty git history:
 
 ```
-npx degit wtchnm/Vitamin#main my-app
+npx degit trinhthinh388/react-vite-boilerplate#master my-app
 ```
 
 Then, install the dependencies:
