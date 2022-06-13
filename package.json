@@ -9,7 +9,13 @@
   "scripts": {
     "build": "vite build",
     "dev": "vite --open",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "prepare": "husky install",
+    "lint:code": "eslint src --ext .js,.jsx,.ts,.tsx && stylelint --allow-empty-input \"src/**/*.(js|jsx|ts|tsx)\" && prettier src --check",
+    "lint:css": "stylelint --config stylelint.css.config.js --allow-empty-input \"src/**/*.(css|scss)\"",
+    "lint": "yarn lint:code && yarn lint:css",
+    "typecheck": "tsc",
+    "test": "jest"
   },
   "dependencies": {
     "react": "^18.1.0",
