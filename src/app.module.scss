@@ -1,0 +1,56 @@
+:global #root {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.app {
+  max-width: 1280px;
+  margin: 0 auto;
+  width: 100%;
+  text-align: center;
+
+  .logo {
+    height: 6rem;
+    padding: 1.5rem;
+    will-change: filter;
+    &:hover {
+      filter: drop-shadow(0 0 2em #646cffaa);
+    }
+
+    &React {
+      height: 6rem;
+      padding: 1.5rem;
+      will-change: filter;
+      animation: logo-spin infinite 20s linear;
+      &:hover {
+        filter: drop-shadow(0 0 2em #61dafbaa);
+      }
+    }
+  }
+
+  h1 {
+    font-size: 3.2rem;
+    line-height: 1.1;
+    font-weight: 800;
+  }
+  .card {
+    padding: 2rem;
+    p {
+      font-size: 1rem;
+      margin: 1rem 0;
+    }
+  }
+  .readTheDocs {
+    color: #888;
+  }
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
