@@ -1,5 +1,8 @@
 # React Vite Typescript
 
+[![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg)](https://github.com/prettier/prettier)
+[![license](https://img.shields.io/badge/license-MIT-green.svg)](https://github.com/trinhthinh388/react-vite-boilerplate/blob/main/LICENSE)
+
 Opinionated Vite starter template.
 
 ## Feature
